@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="shortcut icon" href="./Src/favicon.png" type="image/x-icon">
+    <!--Animate CSS CDN-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!--Font Awesome CDN-->
+    <script src="https://kit.fontawesome.com/6a1e6c7ea7.js" crossorigin="anonymous"></script>
+
+
+    <!--AOS CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>Louay Beltifa | Home</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><h1>LOUAY BELTIFA</h1></ion-icon>
+            </a>
+        </div>
+        <div class="nav" id="nav-menu">
+            <ion-icon name="close-outline" class="header__close" id="close-menu"></ion-icon>
+
+            <ul class="nav-list">
+                <li class="nav-item"><a href="./Src/cvlouay.pdf" target="_blank" class="nav-link">Resume (PDF)</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#showcase" class="nav-link">Showcase</a></li>
+                <li class="nav-item"><a href="#sayhello" class="nav-link contactbtn">Say Hello</a></li>
+            </ul>
+        </div>
+
+        <ion-icon name="menu-outline" class="header__toggle" id="toggle-menu"></ion-icon>
+    </div>
+
+    <div class="hero">
+        <div class="image animate__animated animate__fadeIn animate__slower" >
+            <img src="./images/myimage.png" alt="louay image">
+        </div>
+        <div class="title animate__animated animate__fadeInLeft animate__slow">
+            <h1>Front-end Developer Student & Designer</h1>
+            <p>I design and code beautifully simple things, and I love what I do.</p>
+        </div>
+        <a href="#about">
+        <div class="mouse_scroll">
+
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            
+                <div>
+                    <span class="m_scroll_arrows unu"></span>
+                    <span class="m_scroll_arrows doi"></span>
+                    <span class="m_scroll_arrows trei"></span>
+                </div>
+            
+        </div>
+        </a>
+    </div>
+
+
+    <!----> <div class="spacer layer1"></div>
+
+    <div class="aboutsection" id="about">
+        <div class="footer" data-aos="fade-up" data-aos-duration="2000">
+            <img src="./images/4884783.png" alt="">
+        </div>
+        <div class="text" data-aos="fade-up" data-aos-duration="2000"> 
+            <h1>Hi, I’m Louay. Nice to meet you.</h1>
+            <p>i'm a Computer Science student located in Tunisia, I have a serious passion for websites development and Ui&Ux design, Interested in the entire frontend spectrum and working on ambitious projects.
+            Well-organised person, Problem solver, Gamer and I'm always trying to learn more and improve my skills. </p>
+            <div>
+            <a href="./Src/cvlouay.pdf" target="_blank">Resume</a>
+        </div>
+        </div>
+
+        <a href="#showcase" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+            <div class="mouse_scroll">
+    
+                <div class="mouse1">
+                    <div class="wheel1"></div>
+                </div>
+                
+                    <div>
+                        <span class="m_scroll_arrows1 unu"></span>
+                        <span class="m_scroll_arrows1 doi"></span>
+                        <span class="m_scroll_arrows1 trei"></span>
+                    </div>
+                
+            </div>
+            </a>
+    </div>
+
+    <!----> <div class="spacer2 layer2"></div>
+
+    <div class="showcase" id="showcase">
+        <div class="sectionTitle">
+            <h1>ShowCase</h1>
+        </div>
+        <div class="ProjectCarts">
+            <div class="Cart">
+                <div class="pageimg">
+                    <div class="color"></div>
+                    <img src="./images/enactusWebsite.PNG" alt="">
+                </div>
+                <div class="pageinfo">
+                    <h4>01.</h4>
+                    <h3>Enactus FSM</h3>
+                    <p>Website developed for the promotion of the club recruiting new members. responsive website contains animations. <br> 
+                        - UI/UX desing and front-end developing with html css<br>
+                        - Added Some Animation using Animate.css and AOS.js <br>
+                        - Back-end developed using firebase and javascript vanilla 
+                    </p>
+                    <div class="projectskills">
+                        <h5>HTML</h5>
+                        <h5>CSS</h5>
+                        <h5>JAVASCRIPT</h5>
+                        <h5>FIREBASE</h5>
+                    </div>
+                    <div class="projectlinks"><a href="https://github.com/LouayBeltifa/Enactus-Fsm-Website" target="_blank"><i class="fab fa-github-square"></i></a><a href="https://enactusfsm.tn/" target="_blank"><i class="fas fa-share-square"></a></i></div>
+                </div>
+            </div>
+
+        </div>
+        <a href="https://github.com/LouayBeltifa" class="link" target="_blank">My Github Profile</a>
+    </div>
+
+   <!----> <div class="spacer layer1"></div>
+
+    <div class="contactme" id="sayhello">
+        <h1>Get In Touch : </h1>
+        <div class="formbox">
+            <form method="POST" action="https://formspree.io/f/mvolpogg">
+                <input type="text" placeholder="Full Name" name="name">
+                <input type="email" placeholder="Your Email" name="_replyto">
+                <input type="text" placeholder="Subject" name="subject">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send</button>     
+            </form>
+        </div>
+    </div>
+
+
+    <footer>
+        <p style="margin-top: 10px; margin-bottom: 10px;">Social Links</p>
+        <div class="social-links">
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+            <a href=""><i class="fab fa-instagram-square"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-github-square"></i></a>
+        </div>
+        <p>CopyRight 2021-2022 &copy; , By Louay Beltifa</p>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./scripts/index.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
