@@ -526,7 +526,6 @@ ul {
 
 
 .showcase {
-    height: 100vh;
     padding: 50px 400px;
 }
 
@@ -539,11 +538,12 @@ ul {
 
 .ProjectCartes {
     width: 100%;
+
 }
 
 .Cart {
     width: 50%;
-    cursor: po;
+    margin-bottom: 250px;
 }
 
 
@@ -623,6 +623,7 @@ ul {
 .projectlinks i:hover {
     color: #db8433;
 }
+
 .Cart:hover .color { 
     opacity: 0;
 }
@@ -635,10 +636,11 @@ ul {
     text-decoration: none;
     color: #FF9636;
     border: 1px solid #FF9636;
-    padding: 10px;
-    font-size: 20px;
+    padding: 10px 30px;
+    font-size: 30px;
     border-radius: 25px;
     transition: all 0.2s ease-in;
+    margin-left: 35%;
 }
 
 .showcase .link:hover {
