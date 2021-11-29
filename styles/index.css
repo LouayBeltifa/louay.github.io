@@ -73,7 +73,7 @@ ul {
 .nav-link {
     padding: 10px;
     color: #FF9636;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
     transition: all 0.3s ease;
 }
@@ -141,7 +141,7 @@ ul {
 
     .nav-link {
         color: white;
-        font-size: 27px;
+        font-size: 20px;
     }
     
     .nav-list {
