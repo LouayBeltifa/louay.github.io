@@ -182,19 +182,19 @@ ul {
 }
 
 .title h1{
-    margin-bottom: 20px;
-    font-size: 50px;
+    margin-bottom: 10px;
+    font-size: 40px;
 }
 .title p {
-    font-size: 23px;
-    margin-bottom: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .image img{
     width: 270px;
     border: 4px solid #FF9636;
     border-radius: 50%;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .footer img {
@@ -240,7 +240,7 @@ ul {
   .mouse_scroll {
       display: block;
       margin: 0 auto;
-      width: 24px;
+      width: 14px;
       height: 100px;
       margin-top: 20px;
   }
@@ -259,8 +259,8 @@ ul {
     border-bottom: 2px solid #FF9636;
     margin: 0 0 3px 4px;
     
-    width: 16px;
-    height: 16px;
+    width: 12px;
+    height: 12px;
   }
 
   .m_scroll_arrows1
@@ -344,7 +344,7 @@ ul {
     border-radius: 14px;
     transform: none;
     border: 2px solid #FFFFFF;
-    top: 170px;
+    top: 130px;
   }
   
   .wheel {
@@ -465,7 +465,7 @@ ul {
   }
 
   .aboutsection .footer img {
-      width: 600px;
+      width: 400px;
   }
 
   .aboutsection .text {
@@ -474,16 +474,16 @@ ul {
   
   .aboutsection .text h1 {
       margin-bottom: 20px;
-      font-size: 40px;
+      font-size: 30px;
   }
 
   .aboutsection .text p {
-      font-size: 25px;
+      font-size: 20px;
       margin-bottom: 55px;
   }
 
   .aboutsection .text a {
-    font-size: 27px;
+    font-size: 23px;
     border: 1px solid white;
     color: white;
     background-color: #FF9636;
